@@ -1,0 +1,33 @@
+.pList{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.pListItem{
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.pListImg{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.pListImg:hover{
+    box-shadow: 0 0 2px 1px rgba(243, 7, 7, 0.89);
+}
+
+.pListTitles>h1{
+    font-size: 18px;
+}
+
+.pListTitles>h2{
+    font-size: 14px;
+    font-weight: 300;
+}
